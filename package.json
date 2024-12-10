@@ -6,7 +6,9 @@
     "cors": "^2.8.5",
     "express": "^4.21.1",
     "mongoose": "^8.7.1",
-    "path": "^0.12.7"
+    "o": "^2.3.2",
+    "path": "^0.12.7",
+    "yarn": "^1.22.22"
   },
   "name": "a-time-for-lunch",
   "version": "1.0.0",

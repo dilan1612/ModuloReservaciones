@@ -28,11 +28,6 @@ const schemaReservacion= new Schema({
         type: Number,
         required: true,
         min: 1
-    },
-    estadoReservacion: {
-        type: String,
-        enum: ['pendiente', 'confirmada', 'cancelada'],
-        default: 'pendiente'
     }
 })
 
