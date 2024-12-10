@@ -11,7 +11,7 @@ const {
 routes.get('/',listReservaciones)
 routes.get('/:id',findById)
 routes.post('/',createReservacion)
-routes.put('/', updateReservacion)
-routes.delete('/',deleteReservacion)
+routes.put('/:id', updateReservacion)
+routes.delete('/:id',deleteReservacion)
 
 module.exports = routes
